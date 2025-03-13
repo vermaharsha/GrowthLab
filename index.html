@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrowthLabs</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Nav container -->
+      <nav class="nav-container">
+        <div class="brand">
+          <img src="img/logo.png" alt="Brand Logo" />
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars" id="menuIcon"></i>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a class="menu-link" href="/">Product</a></li>
+          <li><a class="menu-link" href="#service">Customer</a></li>
+          <li><a class="menu-link" href="#resources">Resources</a></li>
+          <li><a class="menu-link" href="#about">About Us</a></li>
+          <li><a class="menu-link" href="#plans">Plans</a></li>
+          <li><a href="#login" class="btn-login">Login</a></li>
+          <li><a href="#request-demo" class="btn-demo">Request a Demo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+      <h2 class="hero-heading">
+        Unlock video's full potential;
+        <span>half of marketers</span> haven't yet!
+      </h2>
+
+      <div class="hero-animation">
+        <p>
+          Media+ <span>=</span>
+          <span id="dynamic-text" class="fade-effect"></span>
+        </p>
+      </div>
+
+      <p class="hero-description">
+        Netflix-style video discovery for your prospects that turns viewers into
+        customers
+      </p>
+
+      <div class="hero-button">
+        <a href="" class="btn-demo">Request a Demo</a>
+      </div>
+
+      <div class="hero-video-container">
+        <img src="img/hero-video.png" alt="Hero Video" />
+      </div>
+    </section>
+
+    <!-- Partner section -->
+    <section class="partner-section">
+      <h3>Trusted by</h3>
+      <div class="partner-logos">
+        <img src="img/brand1.png" alt="Brand 1" />
+        <img src="img/brand2.png" alt="Brand 2" />
+        <img src="img/brand3.png" alt="Brand 3" />
+        <img src="img/brand4.png" alt="Brand 4" />
+        <img src="img/brand5.png" alt="Brand 5" />
+      </div>
+    </section>
+
+    <!-- Metrics section -->
+    <section class="metrics-section">
+      <div class="metrics-header">
+        <h3>Elevate your video strategy</h3>
+        <h2>Seamless Video Management</h2>
+        <p>Transform how you engage with your audience using Media+</p>
+      </div>
+
+      <div class="metrics-cards">
+        <div class="metric-card">
+          <div class="metric-content">
+            <h1>2.5X</h1>
+            <h2>Lead Generation</h2>
+            <p>Boost watch time and drive more leads</p>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-content">
+            <h1>3X</h1>
+            <h2>Publish Content Faster with AI</h2>
+            <p>Tailor made to get more views</p>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-content">
+            <h1>30min</h1>
+            <h2>Setup</h2>
+            <p>Set up your video CMS in less than 30 minutes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="metrics-button">
+        <a href="" class="btn-demo">Request a Demo</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="features-header">
+        <h3>Why choose Media+?</h3>
+        <h2>
+          Media+ turns video engagement <br />
+          into customer conversions
+        </h2>
+      </div>
+
+      <div class="features-container">
+        <!-- Left Side: Features List -->
+        <div class="features-list">
+          <div class="feature-item">
+            <div class="feature-toggle" data-feature="feature1">
+              <div class="feature-title">
+                <h2>
+                  Curate your video media collection with an AI powered library
+                </h2>
+                <i class="icon fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="feature-details">
+              <p>
+                End manual video uploads and tedious metadata tasks! Hubilo AI
+                automates SEO-optimised metadata creation from your media in
+                minutes.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-toggle" data-feature="feature2">
+              <div class="feature-title">
+                <h2>Build, Brand &amp; Publish your Media+</h2>
+                <i class="icon fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="feature-details">
+              <p>
+                Publish your on-demand media faster than ever using Media+. Add
+                your custom branding and host all your media on your website or
+                any other custom URL of your choice.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-toggle" data-feature="feature3">
+              <div class="feature-title">
+                <h2>
+                  Gate your media, capture leads &amp; connect your CRM - it's
+                  easy
+                </h2>
+                <i class="icon fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="feature-details">
+              <p>
+                Customize forms on Hubilo or import from HubSpot. Seamlessly
+                push data to your CRM and enrich your marketing pipeline.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-toggle" data-feature="feature4">
+              <div class="feature-title">
+                <h2>Track your views - with detailed analytics.</h2>
+                <i class="icon fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="feature-details">
+              <p>
+                Unlock audience insights! Analyze media performance granularly
+                to create better content and capture intent effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Feature Image -->
+        <div class="features-image">
+          <img id="feature-image" src="img/feature1.png" alt="Feature Image" />
+        </div>
+      </div>
+
+      <!-- Mobile Version -->
+      <div class="features-mobile">
+        <!-- Mobile Card 1 -->
+        <div class="feature-mobile-card">
+          <div class="feature-mobile-image">
+            <img src="img/feature1.png" alt="" />
+          </div>
+          <div class="feature-mobile-details mb-1">
+            <h2>
+              Curate your video media collection with an AI powered library
+            </h2>
+            <p>
+              End manual video uploads and tedious metadata tasks! Hubilo AI
+              automates SEO-optimised metadata creation from your media in
+              minutes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mobile Card 2 -->
+        <div class="feature-mobile-card">
+          <div class="feature-mobile-image">
+            <img src="img/feature2.png" alt="" />
+          </div>
+          <div class="feature-mobile-details mb-2">
+            <h2>Build, Brand &amp; Publish your Media+</h2>
+            <p>
+              Publish your on-demand media faster than ever using Media+. Add
+              your custom branding and host all your media on your website or
+              any other custom URL of your choice.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mobile Card 3 -->
+        <div class="feature-mobile-card">
+          <div class="feature-mobile-image">
+            <img src="img/feature3.png" alt="" />
+          </div>
+          <div class="feature-mobile-details mb-3">
+            <h2>
+              Gate your media, capture leads &amp; connect your CRM - it's easy
+            </h2>
+            <p>
+              Customize forms on Hubilo or import from HubSpot. Seamlessly push
+              data to your CRM and enrich your marketing pipeline.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mobile Card 4 -->
+        <div class="feature-mobile-card">
+          <div class="feature-mobile-image">
+            <img src="img/feature4.png" alt="" />
+          </div>
+          <div class="feature-mobile-details mb-4">
+            <h2>Track your views - with detailed analytics.</h2>
+            <p>
+              Unlock audience insights! Analyze media performance granularly to
+              create better content and capture intent effectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <img
+        src="img/Dot-pattern-left.png"
+        alt="Left Pattern"
+        class="testimonial-pattern-left"
+      />
+      <img
+        src="img/Dot-pattern-right.png"
+        alt="Right Pattern"
+        class="testimonial-pattern-right"
+      />
+
+      <div class="testimonial-heading">Take it from a Customer</div>
+
+      <div class="swiper testimonial-slider">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-content">
+              <h1 class="testimonial-quote">
+                "Beautifull showcases our best videos.. "
+              </h1>
+              <div class="testimonial-image">
+                <img src="img/profile1.jpeg" alt="Customer Profile 1" />
+              </div>
+              <p class="testimonial-info">
+                "Media* has created our own 'UNI-FLIX.' It's exactly the OTT
+                platform I've been looking for. It beautifully showcases
+                relevant videos for students, sorted by courses, locations,
+                universities, and more—all in a matter of minutes. Plus, I can
+                create the sections I want for our audience."
+              </p>
+              <h3 class="testimonial-name">Girish C. Ballolla</h3>
+              <h2 class="testimonial-position">
+                Founder &amp; CEO, Gen Next Education, Inc.
+              </h2>
+              <a href="" class="testimonial-btn">Request Demo</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-content">
+              <h1 class="testimonial-quote">
+                "A tool that can make it easy to manage our videos with AI..."
+              </h1>
+              <div class="testimonial-image">
+                <img src="img/profile-2.jpeg" alt="Customer Profile 2" />
+              </div>
+              <p class="testimonial-info">
+                "For the marketers &amp; go-to-market teams this is a great
+                portal. This feels more like a tool that can make it easy to
+                manage our videos with AI and feels like a part of our own
+                website."
+              </p>
+              <h3 class="testimonial-name">Jenifer Ho</h3>
+              <h2 class="testimonial-position">VP of Marketing, Bitwarden</h2>
+              <a href="" class="testimonial-btn">Request Demo</a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-content">
+              <h1 class="testimonial-quote">
+                "Integrates our media with HubSpot CRM..."
+              </h1>
+              <div class="testimonial-image">
+                <img src="img/profile-3.png" alt="Customer Profile 3" />
+              </div>
+              <p class="testimonial-info">
+                "Media+ seamlessly integrates our media with HubSpot CRM,
+                significantly boosting our lead generation pipeline. The
+                auto-tagging feature also delivers a personalized video
+                experience for every viewer."
+              </p>
+              <h3 class="testimonial-name">Tami Strand</h3>
+              <h2 class="testimonial-position">
+                Senior Director of Marketing, Azuga
+              </h2>
+              <a href="" class="testimonial-btn">Request Demo</a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-content">
+              <h1 class="testimonial-quote">
+                "A tool that makes it easy to manage our videos..."
+              </h1>
+              <div class="testimonial-image">
+                <img src="img/profile-4.png" alt="Customer Profile 4" />
+              </div>
+              <p class="testimonial-info">
+                "We do webinars twice or once a week. This works for us because
+                we don't have to download our recordings and upload them on our
+                Webinars Page again and again. This helps us save time and
+                effort as we can bring our webinars from Hubilo to Media+
+                seamlessly."
+              </p>
+              <h3 class="testimonial-name">Jule Hiller</h3>
+              <h2 class="testimonial-position">
+                Senior Marketing Manager, EQS Group
+              </h2>
+              <a href="" class="testimonial-btn">Request Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-showcase">
+      <div class="video-text">
+        <h3>With Media+</h3>
+        <h2>Create an OTT platform for your media</h2>
+        <p>
+          Let your videos do more than just sit on your website. Curate your
+          video repository in a few easy steps and let it drive organic views
+          and generate leads.
+        </p>
+      </div>
+      <div class="video-frame">
+        <div class="video-wrapper">
+          <video width="100%" height="100%" controls>
+            <source src="img/sample-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="banner__heading">
+        <h1 class="banner__line banner__line--left">
+          <span class="banner__prefix">Your</span>
+          <span class="banner__main">Videos</span>
+        </h1>
+        <h1 class="banner__line banner__line--center">
+          <span class="banner__prefix">Your</span>
+          <span class="banner__main">Brand</span>
+        </h1>
+        <h1 class="banner__line banner__line--right">
+          <span class="banner__prefix">Your</span>
+          <span class="banner__main">Website</span>
+        </h1>
+      </div>
+    </section>
+
+    <!-- Customer Spotlight Section -->
+    <section class="customer-spotlight">
+      <div class="spotlight-header">
+        <h3>Media+ in action:</h3>
+        <h2>Customer Spotlight</h2>
+        <p>
+          See how customers use Media+ to create branded media sites that
+          captivate and convert.
+        </p>
+      </div>
+      <div class="spotlight-slider">
+        <div class="swiper customer-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide spotlight-slide">
+              <img src="img/customer1.jpg" alt="Agora" />
+              <div class="spotlight-content">
+                <h1>Agora</h1>
+                <p>
+                  The content library to catch up on the latest Agora events,
+                  talks, and fireside chats.
+                </p>
+                <a href="#" class="spotlight-btn">
+                  Check out media site <i class="fa-solid fa-arrow-up"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide spotlight-slide">
+              <img src="img/customer2.jpg" alt="Ignition" />
+              <div class="spotlight-content">
+                <h1>Ignition</h1>
+                <p>
+                  A content hub offering valuable insights and practical advice
+                  from industry experts on the most pressing issues impacting
+                  your business today.
+                </p>
+                <a href="#" class="spotlight-btn">
+                  Check out media site <i class="fa-solid fa-arrow-up"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide spotlight-slide">
+              <img src="img/customer3.jpg" alt="Azuga" />
+              <div class="spotlight-content">
+                <h1>Azuga</h1>
+                <p>
+                  A comprehensive content library offering insights into fleet
+                  safety, driver behavior improvement, field service management,
+                  and maximizing ROI through fleet tracking.
+                </p>
+                <a href="#" class="spotlight-btn">
+                  Check out media site <i class="fa-solid fa-arrow-up"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="swiper-slide spotlight-slide">
+              <img src="img/customer4.jpg" alt="Uniflix by GenNext" />
+              <div class="spotlight-content">
+                <h1>Uniflix by GenNext</h1>
+                <p>
+                  A media hub that offers students clear, dependable, and
+                  comprehensive information about their overseas education
+                  opportunities.
+                </p>
+                <a href="#" class="spotlight-btn">
+                  Check out media site <i class="fa-solid fa-arrow-up"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media + Features Section -->
+    <section class="media-features">
+      <div class="section-header">
+        <h3>Explore</h3>
+        <h2>Media + Features</h2>
+      </div>
+      <div class="media-visual">
+        <div class="media-visual__desktop">
+          <img src="img/Media-desktop.jpg" alt="Media Desktop View" />
+        </div>
+        <div class="media-visual__mobile">
+          <img src="img/Media-mobile.png" alt="Media Mobile View" />
+        </div>
+      </div>
+      <div class="media-cards">
+        <!-- Card 1 -->
+        <div class="media-card">
+          <div class="media-card__header">
+            <div class="media-card__icon">
+              <img src="img/media-icon/1.png" alt="Media Library Icon" />
+            </div>
+            <p>Media Library</p>
+          </div>
+          <ul class="media-card__list">
+            <li>
+              25 video uploads included, 1 Media site with options to add more
+            </li>
+            <li>Upload videos directly from your computer</li>
+            <li>Import past event recordings in a few clicks</li>
+            <li>Effortlessly set up new events or import details</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="media-card">
+          <div class="media-card__header">
+            <div class="media-card__icon">
+              <img src="img/media-icon/2.png" alt="Automated Process Icon" />
+            </div>
+            <p>Automated Process</p>
+          </div>
+          <ul class="media-card__list">
+            <li>AI-generated metadata</li>
+            <li>AI-generated thumbnails, transcripts &amp; speaker lists</li>
+            <li>AI-generated tags by category &amp; audience</li>
+            <li>
+              Auto-transfer videos from Hubilo webinars &amp; digital events to
+              Media+
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="media-card">
+          <div class="media-card__header">
+            <div class="media-card__icon">
+              <img
+                src="img/media-icon/3.png"
+                alt="Branding &amp; Personalization Icon"
+              />
+            </div>
+            <p>Branding &amp; Personalization</p>
+          </div>
+          <ul class="media-card__list">
+            <li>Use your logo and accent color; choose light or dark themes</li>
+            <li>Create a unique media site URL with your own domain</li>
+            <li>
+              Use preference forms to deliver tailored content to your audience
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="media-card">
+          <div class="media-card__header">
+            <div class="media-card__icon">
+              <img src="img/media-icon/4.png" alt="Video Player Icon" />
+            </div>
+            <p>Video Player</p>
+          </div>
+          <ul class="media-card__list">
+            <li>
+              Top video quality with descriptions, speaker info, resources, and
+              recommendations
+            </li>
+            <li>Integrated CTAs for better engagement</li>
+            <li>Ask questions and share content easily</li>
+            <li>Navigate through video chapters seamlessly</li>
+          </ul>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="media-card">
+          <div class="media-card__header">
+            <div class="media-card__icon">
+              <img src="img/media-icon/5.png" alt="Deep Analytics Icon" />
+            </div>
+            <p>Deep Analytics</p>
+          </div>
+          <ul class="media-card__list">
+            <li>Comprehensive analytics on your media engagement</li>
+            <li>Video level analytics</li>
+            <li>Audience level analytics</li>
+          </ul>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="media-card">
+          <div class="media-card__header">
+            <div class="media-card__icon">
+              <img src="img/media-icon/6.png" alt="Boost Your Pipeline Icon" />
+            </div>
+            <p>Boost Your Pipeline</p>
+          </div>
+          <ul class="media-card__list">
+            <li>CTAs linked to MAP/CRM</li>
+            <li>Gate your content with forms</li>
+            <li>Capture pipeline and engagement data via CRM (HubSpot)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+      <div class="pricing-container">
+        <div class="pricing-content">
+          <h1>Get your media library up and running</h1>
+          <h2>
+            Kickstart your media library with up to 25 high-quality videos.
+            Upgrade anytime with our flexible add-on plans to upload additional
+            videos.
+          </h2>
+          <p>
+            <i class="fa-solid fa-check"></i> 25 media upload credits &amp;
+            add-ons
+          </p>
+          <p>
+            <i class="fa-solid fa-check"></i> 1 media site credit &amp; add-ons
+            for more
+          </p>
+          <div class="pricing-button">
+            <a href="">Get Pricing</a>
+          </div>
+        </div>
+        <div class="pricing-image">
+          <img src="img/pricing.png" alt="Pricing Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="faq-heading">
+        <h2>Our top-list of commonly asked questions</h2>
+        <h1>FAQS</h1>
+      </div>
+
+      <div class="faq-con" id="faqContainer">
+        <!-- FAQ cards will be dynamically inserted here by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-left">
+        <p>See how your videos can make your business <span>more $$$</span></p>
+        <div class="contact-img">
+          <img src="img/contact.png" alt="Contact Illustration" />
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <h1 class="form-title">Take the Full Media+ Tour</h1>
+
+          <label class="form-label" for="email">Business email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="johnsmith@hubilo.com"
+          />
+
+          <label class="form-label" for="first-name">First Name</label>
+          <input
+            class="form-input"
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="John"
+          />
+
+          <label class="form-label" for="last-name">Last Name</label>
+          <input
+            class="form-input"
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Smith"
+          />
+
+          <label class="form-label" for="company-name">Company name</label>
+          <input
+            class="form-input"
+            type="text"
+            id="company-name"
+            name="company-name"
+            placeholder="Business Company Name"
+          />
+
+          <label class="form-label" for="phone">Phone</label>
+          <input
+            class="form-input"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="(201) 555-0123"
+          />
+
+          <div class="form-checkbox">
+            <input
+              class="form-checkbox-input"
+              type="checkbox"
+              id="tos"
+              name="tos"
+              checked
+            />
+            <label class="form-checkbox-label" for="tos">
+              I agree to Hubilo's <a href="#terms">Terms of Service</a> and
+              <a href="#privacy">Privacy Policy</a> which includes my consent to
+              process my personal data.
+            </label>
+          </div>
+
+          <button class="form-button" type="submit">Get a free demo</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="footer__container">
+        <!-- Left: Navigation Columns & Social Logos -->
+        <div class="footer__main-left">
+          <div class="footer__columns">
+            <!-- Column 1: Product -->
+            <div class="footer__column">
+              <h1 class="footer__column-heading">Product</h1>
+              <ul class="footer__list">
+                <li>Webinar+</li>
+                <li>edia+</li>
+                <li>Generate Interest 👀</li>
+                <li>Capture Intent 🤔</li>
+                <li>Prove Impact 🔥</li>
+                <li>Repurpose Content 📣</li>
+              </ul>
+            </div>
+            <!-- Column 2: Who Are You -->
+            <div class="footer__column">
+              <h1 class="footer__column-heading">Who are you</h1>
+              <ul class="footer__list">
+                <li>Demand Gen Marketer</li>
+                <li>Content Marketer</li>
+                <li>Event Marketer</li>
+                <li>Field Marketer</li>
+                <li>Marketing Op</li>
+                <li>CMO</li>
+              </ul>
+            </div>
+            <!-- Column 3: Resources -->
+            <div class="footer__column">
+              <h1 class="footer__column-heading">Resources</h1>
+              <ul class="footer__list">
+                <li>People who love us</li>
+                <li>People who hate us</li>
+                <li>Our Webinars</li>
+                <li>Our Thoughts</li>
+                <li>Help!</li>
+              </ul>
+            </div>
+            <!-- Column 4: About Us -->
+            <div class="footer__column">
+              <h1 class="footer__column-heading">About Us</h1>
+              <ul class="footer__list">
+                <li>Mission + Values</li>
+                <li>The Head Honchos</li>
+                <li>The Gossip</li>
+                <li>Our Contact Deets</li>
+                <li>Join the team!</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__social-logos">
+            <img src="img/footer/footer1.png" alt="Logo 1" />
+            <img src="img/footer/footer1.png" alt="Logo 1" />
+            <img src="img/footer/footer1.png" alt="Logo 1" />
+            <img src="img/footer/footer2.png" alt="Logo 2" />
+            <img src="img/footer/footer3.png" alt="Logo 3" />
+          </div>
+        </div>
+        <!-- Right: Contact & Social Links -->
+        <div class="footer__main-right">
+          <div class="footer__contact footer__right-block">
+            <h2>Contact us</h2>
+            <p>to see what Webinar+ can do for your business</p>
+            <div class="footer__contact-form">
+              <input type="email" placeholder="Enter your email" />
+              <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="footer__brand footer__right-block">
+            <div class="footer__brand-logo">
+              <img src="img/footer/footer4.png" alt="Brand Logo" />
+            </div>
+          </div>
+          <div class="footer__social-links footer__right-block">
+            <a href=""><img src="img/footer/ln.png" alt="LinkedIn" /></a>
+            <a href=""><img src="img/footer/fb.png" alt="Facebook" /></a>
+            <a href=""><img src="img/footer/x.png" alt="X" /></a>
+            <a href=""><img src="img/footer/insta.png" alt="Instagram" /></a>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom -->
+      <div class="footer__bottom footer__right-block">
+        <div class="footer__copyright">
+          <p>© 2022 Hubilo. All rights reserved</p>
+        </div>
+        <ul class="footer__policies">
+          <li>Terms of Use</li>
+          <li>Privacy Policy</li>
+          <li>Security and Compliance</li>
+          <li>Policy</li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
