@@ -121,13 +121,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // ====================================
   const faqCards = document.querySelectorAll(".faq-card");
 
-  faqCards.forEach(card => {
+  faqCards.forEach((card) => {
     const question = card.querySelector(".ques");
     const symbol = question.querySelector(".toggle-symbol");
 
     question.addEventListener("click", function () {
       // Close all other FAQ cards
-      faqCards.forEach(otherCard => {
+      faqCards.forEach((otherCard) => {
         if (otherCard !== card) {
           otherCard.classList.remove("open");
           const otherSymbol = otherCard.querySelector(".toggle-symbol");
